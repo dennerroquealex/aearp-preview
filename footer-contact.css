@@ -1,0 +1,18 @@
+.footer-partners{border-top:1px solid #ffffff20;border-bottom:1px solid #ffffff20}
+.footer-partners-inner{display:flex;align-items:center;justify-content:space-between;gap:28px;padding-top:18px;padding-bottom:18px}
+.footer-partners-title{color:#c1cace;font-size:9px;font-weight:700;letter-spacing:1px}
+.footer-partner-logos{display:flex;align-items:center;gap:14px}
+.footer-partner-logos a{display:flex;align-items:center;justify-content:center;min-width:190px;height:54px;padding:8px 14px;background:transparent}
+.footer-partner-logos img{display:block;max-width:100%;height:38px;object-fit:contain}
+.contact-map-wrap{margin-top:55px}
+.contact-map-heading{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:20px}
+.contact-map-heading h2{font:700 28px/1.2 var(--display);color:#252a2d;margin:10px 0}
+.contact-map-heading p{font-size:12px;color:#66737a;margin:0}
+.contact-map{display:block;width:100%;height:390px;border:0;background:#e8edef}
+.contact-detail>p{font-size:11px;line-height:1.7;color:#606e75}
+.coworking-callout{display:flex;align-items:center;justify-content:space-between;gap:28px;margin-top:46px;padding:28px 30px;background:#f1f5f6;border-left:4px solid var(--gold)}
+.coworking-callout h2{font:700 26px/1.2 var(--display);color:var(--blue);margin:8px 0}.coworking-callout p{max-width:600px;color:#66737a;font-size:12px;margin:0}
+.path-item-coworking{background:#e9f0f3}.path-item-coworking:hover{background:#fff}
+@media(max-width:780px){.coworking-callout{align-items:flex-start;flex-direction:column}}
+@media(max-width:780px){.footer-partners-inner{align-items:flex-start;flex-direction:column;gap:14px}.contact-map-heading{align-items:flex-start;flex-direction:column}}
+@media(max-width:560px){.footer-partner-logos{width:100%;gap:8px}.footer-partner-logos a{min-width:0;flex:1;height:45px;padding:7px}.footer-partner-logos img{height:27px}.contact-map-wrap{margin-top:40px}.contact-map{height:320px}.contact-map-heading h2{font-size:25px}}
